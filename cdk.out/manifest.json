@@ -1,0 +1,140 @@
+{
+  "version": "1.33.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "LambdaCronExample": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "LambdaCronExample.template.json"
+      },
+      "metadata": {
+        "/LambdaCronExample/Singleton/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SingletonServiceRoleDDD815CD",
+            "trace": [
+              "new Role (/tmp/jsii-kernel-6pwVfb/node_modules/@aws-cdk/aws-iam/lib/role.js:41:22)",
+              "new Function (/tmp/jsii-kernel-6pwVfb/node_modules/@aws-cdk/aws-lambda/lib/function.js:61:35)",
+              "/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8313:20)",
+              "Kernel._create (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7853:26)",
+              "Kernel.create (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7388:28)",
+              "KernelHost.run (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/LambdaCronExample/Singleton/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Singleton8C7B99F3",
+            "trace": [
+              "new Function (/tmp/jsii-kernel-6pwVfb/node_modules/@aws-cdk/aws-lambda/lib/function.js:72:26)",
+              "/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8313:20)",
+              "Kernel._create (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7853:26)",
+              "Kernel.create (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7388:28)",
+              "KernelHost.run (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/LambdaCronExample/Singleton/AllowEventRuleLambdaCronExampleRule4981BEF8": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SingletonAllowEventRuleLambdaCronExampleRule4981BEF87EE49ED6",
+            "trace": [
+              "Function.addPermission (/tmp/jsii-kernel-6pwVfb/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:23:9)",
+              "Object.addLambdaPermission (/tmp/jsii-kernel-6pwVfb/node_modules/@aws-cdk/aws-events-targets/lib/util.js:29:17)",
+              "LambdaFunction.bind (/tmp/jsii-kernel-6pwVfb/node_modules/@aws-cdk/aws-events-targets/lib/lambda.js:18:16)",
+              "Rule.addTarget (/tmp/jsii-kernel-6pwVfb/node_modules/@aws-cdk/aws-events/lib/rule.js:75:36)",
+              "/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7680:51",
+              "Kernel._wrapSandboxCode (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8313:20)",
+              "/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7680:25",
+              "Kernel._ensureSync (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8289:20)",
+              "Kernel.invoke (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7679:26)",
+              "KernelHost.processRequest (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7388:28)",
+              "KernelHost.run (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/LambdaCronExample/Rule/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Rule4C995B7F",
+            "trace": [
+              "new Rule (/tmp/jsii-kernel-6pwVfb/node_modules/@aws-cdk/aws-events/lib/rule.js:25:26)",
+              "/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8313:20)",
+              "Kernel._create (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7853:26)",
+              "Kernel.create (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7388:28)",
+              "KernelHost.run (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/cloud-assembly-schema": "1.33.0",
+      "@aws-cdk/cx-api": "1.33.0",
+      "@aws-cdk/core": "1.33.0",
+      "@aws-cdk/region-info": "1.33.0",
+      "@aws-cdk/aws-iam": "1.33.0",
+      "@aws-cdk/aws-events": "1.33.0",
+      "@aws-cdk/aws-cloudwatch": "1.33.0",
+      "@aws-cdk/aws-logs": "1.33.0",
+      "@aws-cdk/aws-kms": "1.33.0",
+      "@aws-cdk/aws-s3": "1.33.0",
+      "@aws-cdk/aws-ssm": "1.33.0",
+      "@aws-cdk/aws-ec2": "1.33.0",
+      "@aws-cdk/assets": "1.33.0",
+      "@aws-cdk/aws-s3-assets": "1.33.0",
+      "@aws-cdk/aws-sqs": "1.33.0",
+      "@aws-cdk/aws-lambda": "1.33.0",
+      "@aws-cdk/aws-ecr": "1.33.0",
+      "@aws-cdk/aws-autoscaling-common": "1.33.0",
+      "@aws-cdk/aws-applicationautoscaling": "1.33.0",
+      "@aws-cdk/aws-elasticloadbalancing": "1.33.0",
+      "@aws-cdk/aws-sns": "1.33.0",
+      "@aws-cdk/aws-cloudformation": "1.33.0",
+      "@aws-cdk/aws-route53": "1.33.0",
+      "@aws-cdk/aws-certificatemanager": "1.33.0",
+      "@aws-cdk/aws-elasticloadbalancingv2": "1.33.0",
+      "@aws-cdk/aws-autoscaling": "1.33.0",
+      "@aws-cdk/aws-sns-subscriptions": "1.33.0",
+      "@aws-cdk/aws-autoscaling-hooktargets": "1.33.0",
+      "@aws-cdk/aws-ecr-assets": "1.33.0",
+      "@aws-cdk/aws-apigateway": "1.33.0",
+      "@aws-cdk/aws-cloudfront": "1.33.0",
+      "@aws-cdk/aws-route53-targets": "1.33.0",
+      "@aws-cdk/aws-sam": "1.33.0",
+      "@aws-cdk/aws-secretsmanager": "1.33.0",
+      "@aws-cdk/aws-servicediscovery": "1.33.0",
+      "@aws-cdk/aws-ecs": "1.33.0",
+      "@aws-cdk/aws-batch": "1.33.0",
+      "@aws-cdk/aws-codecommit": "1.33.0",
+      "@aws-cdk/aws-codebuild": "1.33.0",
+      "@aws-cdk/aws-codepipeline": "1.33.0",
+      "@aws-cdk/aws-stepfunctions": "1.33.0",
+      "@aws-cdk/aws-events-targets": "1.33.0",
+      "jsii-runtime": "Python/3.7.6"
+    }
+  }
+}
